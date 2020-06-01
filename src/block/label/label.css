@@ -1,0 +1,10 @@
+.label {
+  font-family: 'Alegreya-Regular';
+  color: rgb(173, 104, 0);
+  font-weight: 100;
+  font-style: normal;
+	font-size: 0.65rem;
+  line-height: 1rem;
+  /* border: 1px solid red; */
+  margin: 10px 0 0;
+}

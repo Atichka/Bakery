@@ -1,0 +1,11 @@
+.social__icons {
+  margin-left: 27.89px;
+  width: 20px;
+  height: 20px;
+	cursor: url(../../../images/Pointer.png), pointer;
+}
+
+.social__icons:hover {
+	transition: opacity 0.3s;
+	opacity: 0.8;
+}

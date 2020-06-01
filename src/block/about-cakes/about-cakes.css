@@ -1,0 +1,9 @@
+@import url(./__text/about-cakes__text.css);
+@import url(./__pic/about-cakes__pic.css);
+
+.about-cakes {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

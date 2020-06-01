@@ -1,0 +1,19 @@
+.header__logo {
+  margin: 0 0 0 104px;
+  font-family: 'Alegreya-Medium', Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 3.25rem;
+  line-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  color: rgb(185, 184, 184);
+
+	text-decoration: none;
+	cursor: url(../../../images/Pointer.png), pointer;
+}
+
+.header__logo:hover {
+	transition: opacity 0.3s;
+	opacity: 0.8;
+}

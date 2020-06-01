@@ -1,0 +1,17 @@
+@import url(./__title/main__title.css);
+@import url(./__line/main__line.css);
+@import url(./__line/__line-right/main__line-right.css);
+@import url(./__line-bottom/main__line-bottom.css);
+@import url(./__line-top/main__line-top.css);
+@import url(./__line-left/main__line-left.css);
+@import url(./__label/main__label.css);
+@import url(./__button/main__button.css);
+@import url(./__container/main__container.css);
+
+.main {
+  height: 1075px;
+  background-image: url(../../images/mainPic.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

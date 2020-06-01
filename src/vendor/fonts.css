@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Alegreya-Medium';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("./fonts/Alegreya-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Alegreya-Regular';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/Alegreya-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Alegreya-Bold';
+  font-style:  normal;
+  font-weight: 900;
+  src: url("./fonts/Alegreya-Bold.woff") format("woff");
+}

@@ -1,0 +1,20 @@
+.menu__item {
+  margin-left: 40px;
+
+  font-family: 'Alegreya-Medium', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 3px;
+
+  color: rgb(185, 184, 184);
+  text-decoration: none;
+
+	cursor: url(../../../images/Pointer.png), pointer;
+}
+
+.menu__item:hover {
+	transition: opacity 0.3s;
+	opacity: 0.8;
+}

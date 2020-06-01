@@ -1,0 +1,9 @@
+.main__line-bottom {
+  width: 2.5em;
+  height: 0.5em;
+  margin-top: 10px;
+  border-bottom: 2px dashed rgb(185, 184, 184);
+  border-left: 2px dashed rgb(185, 184, 184);
+  border-right: 2px dashed rgb(185, 184, 184);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
