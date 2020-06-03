@@ -1,0 +1,35 @@
+.about-cakes__tastes {
+  position: absolute;
+
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 20px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.7;
+}
+
+.about-cakes__tastes:before,
+.about-cakes__tastes:after {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 200px;
+height: 200px;
+background: inherit;
+border-radius: 20px;
+z-index: -1;
+}
+
+.about-cakes__tastes:before {
+  transform: rotate(30deg);
+}
+
+.about-cakes__tastes:after {
+  transform: rotate(60deg);
+}
