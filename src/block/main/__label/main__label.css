@@ -1,0 +1,15 @@
+.main__label {
+  font-family: 'Alegreya-Regular';
+  font-weight: 100;
+  font-style: normal;
+  font-weight: normal;
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 3px;
+
+	color: #FFFFFF;
+}

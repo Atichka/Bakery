@@ -1,0 +1,9 @@
+.title {
+  font-family: 'Alegreya-Bold';
+  font-weight: 50;
+  color: rgb(88, 88, 88);
+	font-size: 2.125rem;
+	line-height: 1.5rem;
+  margin: 0;
+  /* border: 1px solid red; */
+}

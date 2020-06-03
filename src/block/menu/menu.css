@@ -1,0 +1,8 @@
+@import url(../menu/__item/menu__item.css);
+
+.menu {
+  padding: 0;
+
+  display: flex;
+  list-style-type: none;
+}

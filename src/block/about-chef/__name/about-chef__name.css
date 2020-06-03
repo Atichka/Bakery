@@ -1,0 +1,12 @@
+.about-chef__name {
+  font-family: 'Alegreya-Medium';
+  font-weight: 50;
+  color: rgb(88, 88, 88);
+	font-size: 1.5rem;
+  line-height: 1.8rem;
+
+  margin: auto;
+  padding: 20px 20px;
+  border-top: 1px solid #b9b8b8;
+  border-bottom: 1px solid #b9b8b8;
+}

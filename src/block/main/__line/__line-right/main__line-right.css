@@ -1,0 +1,6 @@
+.main__line-right {
+  width: 2.5em;
+  height: 0.5em;
+  border-right: 2px dashed rgb(185, 184, 184);
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}

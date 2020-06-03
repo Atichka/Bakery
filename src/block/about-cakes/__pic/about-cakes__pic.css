@@ -1,0 +1,9 @@
+.about-cakes__pic {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 280px 280px;
+  grid-template-rows: 280px 280px;
+  gap: 45px;
+
+  position: relative;
+}
