@@ -20,7 +20,6 @@
 .about-cakes__pic{display:grid;grid-template-columns:280px 280px;grid-template-rows:280px 280px;gap:45px;position:relative}
 .about-cakes__autograph-pic{font-weight:50;color:#585858;font-size:4.5rem;line-height:0;margin:0;color:#b9b8b8}
 .about-cakes__autograph{margin:70px}
-
 .about-cakes__photo{width:100%;height:auto;outline:6px solid #fff;outline-offset:-15px}
 .about-cakes__tastes{position:absolute;width:200px;height:200px;background:#fff;border-radius:20px;margin:auto;top:0;left:0;bottom:0;right:0;opacity:.7}.about-cakes__tastes:after,.about-cakes__tastes:before{content:"";position:absolute;top:0;left:0;width:200px;height:200px;background:inherit;border-radius:20px;z-index:-1}.about-cakes__tastes:before{transform:rotate(30deg)}.about-cakes__tastes:after{transform:rotate(60deg)}
 .about-cakes__tastes-text{font-family:Alegreya-Medium;font-weight:50;color:#ad6800;font-size:2.125rem;line-height:2.5rem;text-align:center;vertical-align:middle;margin-top:30%}
