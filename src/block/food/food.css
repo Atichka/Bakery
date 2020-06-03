@@ -1,0 +1,10 @@
+@import url(./__container/food__container.css);
+@import url(./__photo/food__photo.css);
+@import url(./__text/food__text.css);
+
+.food {
+  background-image: url(../../images/food.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

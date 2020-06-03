@@ -1,0 +1,5 @@
+.food__container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  padding: 270px 250px;
+}
