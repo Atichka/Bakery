@@ -1,6 +1,6 @@
 @font-face{font-family:Alegreya-Medium;font-style:normal;font-weight:500;src:url(../fonts/Alegreya-Medium.woff) format("woff")}@font-face{font-family:Alegreya-Regular;font-style:normal;font-weight:400;src:url(../fonts/Alegreya-Regular.woff) format("woff")}@font-face{font-family:Alegreya-Bold;font-style:normal;font-weight:900;src:url(../fonts/Alegreya-Bold.woff) format("woff")}
 @font-face{font-family:Alegreya-Medium;font-style:normal;font-weight:500;src:url(../fonts/Alegreya-Medium.woff) format("woff")}@font-face{font-family:Alegreya-Regular;font-style:normal;font-weight:400;src:url(../fonts/Alegreya-Regular.woff) format("woff")}@font-face{font-family:Alegreya-Bold;font-style:normal;font-weight:900;src:url(../fonts/Alegreya-Bold.woff) format("woff")}.page{margin:0 auto;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;text-rendering:optimizeLegibility}@media screen and (max-width:1440px){.page{min-width:1440px}}@media screen and (max-width:1024px){.page{min-width:1024px}}@media screen and (max-width:768px){.page{min-width:768px}}@media screen and (max-width:375px){.page{min-width:375px}}@media screen and (max-width:320px){.page{min-width:320px}}
-.main__title{font-style:normal;font-weight:400;font-size:6.75rem;line-height:4rem;padding:0;text-align:center;color:#fff}
+.main__title{font-style:normal;font-weight:400;font-size:6.75rem;line-height:4rem;padding:0;text-align:center;margin:0;color:#fff}
 .main__line{margin-top:100px;display:flex;justify-content:center}
 .main__line-right{width:2.5em;height:.5em;border-right:2px dashed #b9b8b8;border-radius:50% 50% 0 0/100% 100% 0 0}
 .main__line-bottom{width:2.5em;height:.5em;margin-top:10px;border-bottom:2px dashed #b9b8b8;border-left:2px dashed #b9b8b8;border-right:2px dashed #b9b8b8;border-radius:0 0 50% 50%/0 0 100% 100%}
@@ -20,13 +20,14 @@
 .about-cakes__pic{display:grid;grid-template-columns:280px 280px;grid-template-rows:280px 280px;gap:45px;position:relative}
 .about-cakes__autograph-pic{font-weight:50;color:#585858;font-size:4.5rem;line-height:0;margin:0;color:#b9b8b8}
 .about-cakes__autograph{margin:70px}
+.about-cakes__autograph-text{font-family:Alegreya-Medium;font-style:italic;font-weight:400;font-size:1.8rem;line-height:2.3rem;display:flex;align-items:center;color:#ad6800;margin:0}
 .about-cakes__photo{width:100%;height:auto;outline:6px solid #fff;outline-offset:-15px}
 .about-cakes__tastes{position:absolute;width:200px;height:200px;background:#fff;border-radius:20px;margin:auto;top:0;left:0;bottom:0;right:0;opacity:.7}.about-cakes__tastes:after,.about-cakes__tastes:before{content:"";position:absolute;top:0;left:0;width:200px;height:200px;background:inherit;border-radius:20px;z-index:-1}.about-cakes__tastes:before{transform:rotate(30deg)}.about-cakes__tastes:after{transform:rotate(60deg)}
 .about-cakes__tastes-text{font-family:Alegreya-Medium;font-weight:50;color:#ad6800;font-size:2.125rem;line-height:2.5rem;text-align:center;vertical-align:middle;margin-top:30%}
 .about-cakes{display:grid;grid-template-columns:auto auto;gap:50px;padding:100px}
 .title{font-family:Alegreya-Bold;font-weight:50;color:#585858;font-size:2.125rem;line-height:1.5rem;margin:0}
-.label{font-family:Alegreya-Regular;color:#ad6800;font-weight:100;font-style:normal;font-size:.65rem;line-height:1rem;margin:10px 0 0}
-.paragraph{font-family:Alegreya-Regular;letter-spacing:2px;color:#818080}
+.label{font-family:Alegreya-Regular;color:#ad6800;font-weight:100;font-style:normal;font-size:.65rem;line-height:1rem;margin:20px 0 0}
+.paragraph{font-family:Alegreya-Regular;letter-spacing:2px;color:#818080;margin-top:30px}
 .subtitle{font-family:Alegreya-Medium;font-weight:50;color:#585858;font-size:1.8rem;line-height:2.3rem;margin:50px 0 0}
 .about-chef__name{font-family:Alegreya-Medium;font-weight:50;color:#585858;font-size:1.5rem;line-height:1.8rem;margin:auto;padding:20px;border-top:1px solid #b9b8b8;border-bottom:1px solid #b9b8b8}
 .about-chef__photo{border-radius:50%;height:auto;width:100%}
@@ -34,4 +35,8 @@
 .text__left{text-align:left}
 .text__right{text-align:right}
 
+.food__container{display:grid;grid-template-columns:500px 500px;padding:270px 250px}
+.food__photo{width:100%;height:auto}
+.food__text{background-color:#fff;padding:80px 50px}
+.food{background-image:url(.././images/food.jpg);background-size:cover;background-position:50%;background-repeat:no-repeat}
 
