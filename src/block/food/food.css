@@ -6,6 +6,9 @@
 @import url(./__swiper-slide/food__swiper-slide.css);
 @import url(./__swiper/food__swiper.css);
 @import url(./__swiper-button/food__swiper-button.css);
+@import url(./__time/food__time.css);
+@import url(./__title/foot__title.css);
+@import url(./__paragraph/food__paragraph.css);
 
 .food {
   background-image: url(../../images/food.jpg);
