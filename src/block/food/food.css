@@ -1,0 +1,15 @@
+@import url(./__container/food__container.css);
+@import url(./__photo/food__photo.css);
+@import url(./__text/food__text.css);
+@import url(./__pic/food__pic.css);
+@import url(./__swiper-wrapper/food__swiper-wrapper.css);
+@import url(./__swiper-slide/food__swiper-slide.css);
+@import url(./__swiper/food__swiper.css);
+@import url(./__swiper-button/food__swiper-button.css);
+
+.food {
+  background-image: url(../../images/food.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
