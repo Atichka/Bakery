@@ -12,3 +12,4 @@
 @import url(./block/about-chef/about-chef.css);
 @import url(./block/text/text.css);
 @import url(./block/food/food.css);
+@import url(../node_modules/swiper/css/swiper.min.css);
