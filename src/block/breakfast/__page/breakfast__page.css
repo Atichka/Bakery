@@ -1,0 +1,12 @@
+.breakfast__page {
+  background-color: white;
+  width: 100%;
+  outline: 2px dashed #818080;
+  outline-offset: -15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  text-align: center;
+}

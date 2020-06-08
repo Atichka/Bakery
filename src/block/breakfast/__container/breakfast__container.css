@@ -1,0 +1,6 @@
+.breakfast__container {
+  display: grid;
+  grid-template-columns: auto 500px;
+  gap: 40px;
+  padding: 200px 200px;
+}
