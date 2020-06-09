@@ -1,0 +1,23 @@
+.breakfast__button {
+  font-family: 'Alegreya-Regular';
+  color: #ad6800;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 30px 0 0;
+  padding: 5px 40px;
+
+  cursor: url(../../../images/Pointer.png), pointer;
+}
+
+.breakfast__button:hover {
+  transition: opacity 0.3s;
+  opacity: 0.8;
+}
+
+.breakfast__button:active {
+  transition: opacity 0.3s;
+  opacity: 0.8;
+  background: rgb(34, 34, 34);
+}
