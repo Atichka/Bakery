@@ -1,52 +1,77 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bakery</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
+    <link
+      rel="icon"
+      href="<%=require('./images/favicon.ico')%>"
+      type="image/x-icon"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bakery</title>
-  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
-  <link rel="icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
-</head>
-
-<body>
-  <div class="page">
-    <section class="main">
-      <header class="header">
-        <a href="./index.html" class="header__logo">Gustoso</a>
-        <ul class="menu">
-          <li><a href="./index.html" class="menu__item">WELCOME</a></li>
-          <li><a href="./index.html" class="menu__item">MENU</a></li>
-          <li><a href="./index.html" class="menu__item">RESERVATIONS</a></li>
-          <li><a href="./index.html" class="menu__item">CONTACT</a></li>
-        </ul>
-        <ul class="social">
-          <li><a href="https://www.twitter.com" class="social__links">
-              <img src="<%=require('./images/twitter.ico')%>" class="social__icons" alt="Twitter">
-            </a></li>
-          <li><a href="https://facebook.com" class="social__links">
-              <img src="<%=require('./images/facebook.ico')%>" class="social__icons" alt="FaceBook">
-            </a></li>
-            <li><a href="https://instagram.com" class="social__links">
-              <img src="<%=require('./images/instagram.ico')%>" class="social__icons" alt="Instagram">
-            </a></li>
-        </ul>
-      </header>
-      <div class="main__container">
-        <h1 class="main__title">Pastry with love</h1>
-        <div class="main__line">
-          <div class="main__line-right"></div>
-          <div class="main__line-bottom"></div>
-          <div class="main__line-top"></div>
-          <div class="main__line-bottom"></div>
-          <div class="main__line-left"></div>
+  <body class="body">
+    <div class="page">
+      <section class="main">
+        <header class="header">
+          <a href="./index.html" class="header__logo">Gustoso</a>
+          <ul class="menu">
+            <li><a href="./index.html" class="menu__item">WELCOME</a></li>
+            <li><a href="./index.html" class="menu__item">MENU</a></li>
+            <li><a href="./index.html" class="menu__item">RESERVATIONS</a></li>
+            <li><a href="./index.html" class="menu__item">CONTACT</a></li>
+          </ul>
+          <ul class="social">
+            <li>
+              <a href="https://www.twitter.com" class="social__links">
+                <img
+                  src="<%=require('./images/twitter.ico')%>"
+                  class="social__icons"
+                  alt="Twitter"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com" class="social__links">
+                <img
+                  src="<%=require('./images/facebook.ico')%>"
+                  class="social__icons"
+                  alt="FaceBook"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com" class="social__links">
+                <img
+                  src="<%=require('./images/instagram.ico')%>"
+                  class="social__icons"
+                  alt="Instagram"
+                />
+              </a>
+            </li>
+          </ul>
+        </header>
+        <div class="main__container">
+          <h1 class="main__title">Pastry with love</h1>
+          <div class="main__line">
+            <div class="main__line-right"></div>
+            <div class="main__line-bottom"></div>
+            <div class="main__line-top"></div>
+            <div class="main__line-bottom"></div>
+            <div class="main__line-left"></div>
+          </div>
+          <p class="main__label">
+            We're bringing you fresh ingredients every<br />day in ways you
+            can't resist
+          </p>
+          <button class="main__button">OUR MENU</button>
         </div>
-        <p class="main__label">We're bringing you fresh ingredients every<br>day in ways you can't resist</p>
-        <button class="main__button">OUR MENU</button>
-      </div>
-    </section>
-    <section class="about-cakes">
+      </section>
+
+      <section class="about-cakes">
       <div class="about-cakes__text">
         <h1 class="title">Art of cakes</h1>
         <p class="label">WE CREATE DELICIOUS MEMORIES</p>
@@ -108,6 +133,7 @@
         </div>
       </div>
     </section>
+
     <section class="breakfast">
       <div class="breakfast__container">
         <div class="breakfast__text">
@@ -132,7 +158,7 @@
               <p class="label text__color_black">1893</p>
             </div>
             <div class="breakfast__block">
-              <div class="title">Your morning </br> Escape with Flair</div>
+              <h1 class="title">Your morning </br> Escape with Flair</h1>
               <p class="paragraph">Dones vitae sapien ut libero venenatis faucibas. Nullam quis ante. Etiam sit amet orci eget eros faucibas tincidunt. Duis leo.</p>
             </div>
             <form class="breakfast__read" name="read">
@@ -142,8 +168,55 @@
         </div>
       </div>
     </section>
-  </div>
-  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
-</body>
 
+    <section class="dish">
+      <div class="dish__container">
+        <div class="dish__text">
+          <h1 class="title">The Jibarito sandwich</h1>
+          <p class="label">THE BEST SANDWICH YOU'VE EVER TASTED!</p>
+        </div>
+        <div class="dish__main">
+          <div class="dish__recipe">
+            <div class="dish__item">
+              <img class="dish__pic" src="<%=require('./images/class.jpg')%>" alt="Фотография">
+              <h2 class="subtitle">Class aptent</h2>
+              <p class="paragraph">Quot alienum persecuti ut eam, num ad atqui primis nusquam.</p>
+            </div>
+            <div class="dish__item">
+              <img class="dish__pic" src="<%=require('./images/nulla.jpg')%>" alt="Фотография">
+              <h2 class="subtitle">Nulla eget</h2>
+              <p class="paragraph">Nullam distam felis eu pede mollis pretium Integer tincidunt.</p>
+            </div>
+            <div class="dish__item">
+              <img class="dish__pic" src="<%=require('./images/sed.jpg')%>" alt="Фотография">
+              <h2 class="subtitle">Sed nibh purus</h2>
+              <p class="paragraph">Aenean eleifend tellus leo ligula, porttitor eu, consequant vitae.</p>
+            </div>
+          </div>
+          <div class="dish__recipe-pic">
+            <img class="dish__full-recipe" src="<%=require('./images/recipe.jpg')%>" alt="Фотография">
+            <div class="dish__grid">
+              <div class="dish__time">
+                <p class="label">PREP</p>
+                <h1 class="dish__title">15</h1>
+                <p class="dish__paragraph">mins</p>
+              </div>
+              <div class="dish__time">
+                <p class="label">COOK</p>
+                <h1 class="dish__title">35</h1>
+                <p class="dish__paragraph">mins</p>
+              </div>
+              <div class="dish__time">
+                <p class="label">READY IN</p>
+                <h1 class="foot__title">40</h1>
+                <p class="food__paragraph">mins</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  </body>
 </html>
