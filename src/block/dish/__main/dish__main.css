@@ -1,0 +1,5 @@
+.dish__main {
+  display: grid;
+  grid-template-columns: 350px auto;
+  gap: 60px;
+}

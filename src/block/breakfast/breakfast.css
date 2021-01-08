@@ -1,0 +1,18 @@
+@import url(./__container/breakfast__container.css);
+@import url(./__text/breakfast__text.css);
+@import url(./__sale/breakfast__sale.css);
+@import url(./__page/breakfast__page.css);
+@import url(./__pic/breakfast__pic.css);
+@import url(./__page-one/breakfast__page-one.css);
+@import url(./__page-two/breakfast__page-two.css);
+@import url(./__page-three/breakfast__page-three.css);
+@import url(./__year/breakfast__year.css);
+@import url(./__block/breakfast__block.css);
+@import url(./__button/breakfast__button.css);
+
+.breakfast {
+  background-image: url(../../images/breakfast.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

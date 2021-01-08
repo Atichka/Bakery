@@ -1,26 +1,27 @@
 @font-face {
-  font-family: 'Alegreya-Medium';
-  font-style:  normal;
+  font-family: "Alegreya-Medium";
+  font-style: normal;
   font-weight: 500;
   src: url("../vendor/fonts/Alegreya-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Alegreya-Regular';
-  font-style:  normal;
+  font-family: "Alegreya-Regular";
+  font-style: normal;
   font-weight: 400;
   src: url("../vendor/fonts/Alegreya-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Alegreya-Bold';
-  font-style:  normal;
+  font-family: "Alegreya-Bold";
+  font-style: normal;
   font-weight: 900;
   src: url("../vendor/fonts/Alegreya-Bold.woff") format("woff");
 }
 
 .page {
-  margin: 0 auto;
+  margin: 0;
+  border: 2px double red;
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -31,30 +32,6 @@
 
 @media screen and (max-width: 1440px) {
   .page {
-      min-width: 1440px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-      min-width: 1024px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-      min-width: 768px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .page {
-      min-width: 375px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-      min-width: 320px;
+    min-width: 1440px;
   }
 }

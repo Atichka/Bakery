@@ -1,0 +1,10 @@
+@import url(./__container/dish__container.css);
+@import url(./__pic/dish__pic.css);
+@import url(./__main/dish__main.css);
+@import url(./__recipe-pic/dish__recipe-pic.css);
+@import url(./__time/dish__time.css);
+@import url(./__grid/dish__grid.css);
+
+.dish {
+  background-color: #fcf3e7;
+}
